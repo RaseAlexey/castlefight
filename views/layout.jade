@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		title= Castlefight
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+		script(type="riot/tag", src="javascripts/lobby.tag")
+		script(type="riot/tag", src="javascripts/name-form.tag")
+		script(type="riot/tag", src="javascripts/search-opponent.tag")
+		script(src='https://cdn.jsdelivr.net/riot/2.3/riot+compiler.min.js')
+
+		script(src='javascripts/ws-client.js')
+		block content
